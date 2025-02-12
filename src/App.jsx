@@ -1,9 +1,13 @@
-import './App.css'
+import './styles/App.css'
+import Navbar from './components/Navbar'
+import HeroSection from './components/HeroSection'
 
 function App() {
   return (
     <div>
-      {/* Comienza a construir tu aplicación aquí */}
+      <Navbar />
+      <HeroSection />
+      
     </div>
   )
 }
