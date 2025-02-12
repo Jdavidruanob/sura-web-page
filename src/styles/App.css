@@ -1,8 +1,6 @@
-/* App.css - Styles specific to the main application layout */
-
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Instrument Sans', sans-serif;
     background-color: #f4f4f4;
   }
   
@@ -25,4 +23,8 @@ body {
     padding: 20px;
     background-color: #333;
     color: #fff;
+  }
+  
+  .navbar-spacing {
+    height: 80px; /* Adjust this value if needed */
   }
