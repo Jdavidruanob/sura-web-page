@@ -1,0 +1,116 @@
+/* PlanCard.css */
+
+#card {
+  width: 100%; /* Para un diseño responsive */
+  max-width: 25%; /* Ajuste del tamaño máximo para que se acomoden mejor */
+  height: auto; /* Altura automática para adaptarse al contenido */
+  background-color: #fff;
+  padding: 2%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s; /* Transición para el efecto hover */
+  cursor: pointer; /* Cambia el cursor a pointer */
+  text-decoration: none; /* Elimina el subrayado del enlace */
+  color: inherit; /* Hereda el color del texto */
+  margin-bottom: 20px; /* Espacio inferior entre tarjetas */
+}
+
+#card:hover {
+  transform: translateY(-10px); /* Efecto de levantar la tarjeta */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+#image-container {
+  width: 100%;
+  height: 200px; /* Ajuste de altura para mantener proporciones */
+  margin: 0 auto; /* Centra el contenedor de la imagen */
+}
+
+#image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+#title-container {
+  width: 100%;
+  margin: 2% auto 0; /* Centra el contenedor del título y añade margen superior */
+  text-align: center;
+}
+
+#title {
+  font-size: 1.5em;
+  color: #0033A0;
+  margin: 0;
+  text-decoration: none; /* Elimina el subrayado del título */
+}
+
+#paragraph-container {
+  width: 100%;
+  margin: 3% auto; /* Centra el contenedor del párrafo y añade margen superior */
+  text-align: justify;
+}
+
+#paragraph {
+  font-size: 1em;
+  color: rgba(0, 0, 0, 0.72);
+  text-decoration: none; /* Elimina el subrayado del párrafo */
+}
+
+/* Media queries para hacer las tarjetas responsive */
+@media (max-width: 1024px) {
+  #card {
+    max-width: 40%;
+  }
+
+  #image-container {
+    height: 180px;
+  }
+
+  #title {
+    font-size: 1.3em;
+  }
+
+  #paragraph {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 768px) {
+  #card {
+    max-width: 80%;
+  }
+
+  #image-container {
+    height: 150px;
+  }
+
+  #title {
+    font-size: 1.2em;
+  }
+
+  #paragraph {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 480px) {
+  #card {
+    max-width: 100%;
+    margin-bottom: 20px; /* Espacio inferior entre tarjetas */
+  }
+
+  #image-container {
+    height: 120px;
+  }
+
+  #title {
+    font-size: 1em;
+  }
+
+  #paragraph {
+    font-size: 0.7em;
+  }
+}
