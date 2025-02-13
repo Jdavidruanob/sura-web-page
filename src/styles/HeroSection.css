@@ -1,6 +1,73 @@
 .hero-section {
-    padding: 60px 20px;
-    text-align: center;
-    background-color: #4a90e2;
-    color: white;
-  }
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en varias líneas si es necesario */
+    padding-left: 5%;
+    padding-top: 1%;
+    align-items: center; /* Centra los elementos verticalmente */
+}
+
+.text-container {
+    margin-top: 3%;
+    flex: 1; /* Permite que el contenedor de texto ocupe el espacio disponible */
+    max-width: 100%;
+    text-align: left;
+    margin-right: 5%;
+}
+
+.title-hero {
+    color: #0033A0;
+    font-size: 6vw; /* Usa vw para tamaños relativos basados en el ancho de la ventana */
+    margin-bottom: 1vw;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.subtitle-hero {
+    color: rgba(0, 0, 0, 0.72);
+    font-size: 3vw; /* Usa vw para tamaños relativos basados en el ancho de la ventana */
+    margin-bottom: 2vw;
+}
+
+.button-hero {
+    background-color: #0033A0;
+    color: #fff;
+    padding: 1vw 2vw;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image-container {
+    flex: 1;
+    max-width: 100%;
+    margin-left: 5%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 2% 5%;
+    }
+
+    .text-container {
+        margin-right: 0;
+        text-align: center;
+    }
+    
+    .title-hero {
+        font-size: 8vw; /* Ajusta el tamaño del título en pantallas pequeñas */
+    }
+
+    .subtitle-hero {
+        font-size: 5vw; /* Ajusta el tamaño del subtítulo en pantallas pequeñas */
+    }
+
+    .button-hero {
+        margin-bottom: 20px;
+    }
+}
