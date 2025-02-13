@@ -2,45 +2,64 @@
     display: flex;
     flex-wrap: wrap; /* Permite que los elementos se ajusten en varias líneas si es necesario */
     padding-left: 5%;
-    padding-top: 1%;
+    padding-top: 0%;
     align-items: center; /* Centra los elementos verticalmente */
 }
 
 .text-container {
-    margin-top: 3%;
+    margin-top: 1%;
     flex: 1; /* Permite que el contenedor de texto ocupe el espacio disponible */
-    max-width: 100%;
     text-align: left;
     margin-right: 5%;
+    margin-bottom: 3%; /* Reducido */
+    margin-left: 3%;
 }
 
 .title-hero {
     color: #0033A0;
-    font-size: 6vw; /* Usa vw para tamaños relativos basados en el ancho de la ventana */
-    margin-bottom: 1vw;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    font-size: 5vw; /* Usa vw para tamaños relativos basados en el ancho de la ventana */
+    margin-bottom: 0.1vw; /* Reducido */
+    line-height: 1; /* Ajustado */
 }
 
 .subtitle-hero {
     color: rgba(0, 0, 0, 0.72);
-    font-size: 3vw; /* Usa vw para tamaños relativos basados en el ancho de la ventana */
-    margin-bottom: 2vw;
+    font-size: 2.2vw; /* Usa vw para tamaños relativos basados en el ancho de la ventana */
+    margin-bottom: 1.5vw; /* Reducido */
+    font-weight: medium;
+    line-height: 1.2; /* Ajustado */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .button-hero {
     background-color: #0033A0;
+    font-size: 75%;
     color: #fff;
-    padding: 1vw 2vw;
+    padding: 1.2vw 1.6vw;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
+    font-weight: bold; /* Cambiado a 'bold' para negrita */
+    text-align: center; /* Asegura que el texto esté centrado */
+    transition: background-color 0.3s, transform 0.3s;
+    display: inline-block; /* Para ayudar con el centrado */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.button-hero:hover {
+    background-color: #002080; /* Un azul más oscuro en hover */
+    transform: scale(1.05); /* Un ligero aumento en tamaño */
 }
 
 .image-container {
     flex: 1;
     max-width: 100%;
     margin-left: 5%;
+    margin-right: 3%;
+    border-radius: 40px;
+    margin-top: 2.5%
 }
+
 
 .image-container img {
     width: 100%;

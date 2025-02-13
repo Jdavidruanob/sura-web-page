@@ -8,7 +8,6 @@ const Navbar = () => {
           <div className='navbar-left'>
               <a href='#' className='navbar-link'>
               Ascesoria
-              <img src='/src/assets/wpp-icon.png' alt='Ascesoria' className='navbar-icon' />
               </a>
           </div>
           <div className='navbar-center'>
