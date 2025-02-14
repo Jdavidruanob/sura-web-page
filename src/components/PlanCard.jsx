@@ -1,9 +1,9 @@
 import React from 'react';
 import '../styles/PlanCard.css'; // Importa el archivo CSS
 
-const PlanCard = ({ title, image, paragraph }) => {
+const PlanCard = ({ title, image, paragraph, borderColor }) => {
   return (
-    <a href="/plan-details" id="card"> {/* Enlace que envuelve toda la tarjeta */}
+    <a href="/plan-details" id="card" style={{ borderTop: `10px solid ${borderColor}` }}> {/* Enlace que envuelve toda la tarjeta */}
       <div id="image-container">
         <img src={image} alt="Plan Image" id="image" />
       </div>
