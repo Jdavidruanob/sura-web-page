@@ -14,10 +14,16 @@
   text-decoration: none; /* Elimina el subrayado del enlace */
   color: inherit; /* Hereda el color del texto */
   margin-bottom: 20px; /* Espacio inferior entre tarjetas */
+  view-timeline-name: --reveal;
+  animation-name: show;
+  animation-fill-mode: both;
+
+  animation-timeline: --reveal;
+  animation-range: entry 25% cover 50%;
 }
 
 #card:hover {
-  transform: translateY(-10px); /* Efecto de levantar la tarjeta */
+  transform: translateY(-15px); /* Efecto de levantar la tarjeta */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
 }
 
@@ -112,5 +118,15 @@
 
   #paragraph {
     font-size: 0.7em;
+  }
+}
+
+@keyframes show {
+  from {
+    opacity: 1; scale: 60%;
+  }
+  
+  to {
+    opacity: 1; scale: 100%;
   }
 }
