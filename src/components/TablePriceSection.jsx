@@ -2,13 +2,13 @@ import "./../styles/TablePriceSection.css";
 import suralogo from "./../assets/sura-logo.png"
 const TablePriceSection = () => {
   return (
-    <div className="table-container">
-      <div className="header">
+    <div id="table-container">
+      <div id="header">
         <h1>Tarifas Mensuales<br />Póliza de Salud 2025 </h1>
-        <img src={suralogo} alt="SURA Logo" className="header-image" />
+        <img src={suralogo} alt="SURA Logo" id="header-image" />
       </div>
 
-      <table className="pricing-table">
+      <table id="pricing-table">
         <thead>
           <tr>
             <th>Edad</th>
