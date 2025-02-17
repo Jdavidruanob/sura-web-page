@@ -35,6 +35,7 @@
   #plans-cards-container {
     flex-direction: column;
     align-items: center;
+    gap: 20px; /* Espacio entre las cards en móviles */
   }
 }
 
