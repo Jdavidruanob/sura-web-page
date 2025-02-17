@@ -3,10 +3,13 @@ import { Navigation, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import '../styles/CommentSection.css';
+import img1 from './../assets/review.jpg';
+import img2 from './../assets/review.jpg';
+import img3 from './../assets/review.jpg';
 
 const testimonials = [
   {
-    image: 'image1.jpg',
+    image: img1,
     title: 'Awesome Coding',
     text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     rating: 5,
@@ -14,7 +17,7 @@ const testimonials = [
     description: 'Description',
   },
   {
-    image: 'image2.jpg',
+    image: img2,
     title: 'Great Experience',
     text: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
     rating: 5,
@@ -22,7 +25,7 @@ const testimonials = [
     description: 'Description',
   },
   {
-    image: 'image3.jpg',
+    image: img3,
     title: 'Highly Recommend',
     text: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
     rating: 5,
@@ -35,7 +38,7 @@ const CommentSection = () => {
   return (
     <div className="testimonials-section">
       <header className="section-header">
-        <h1>What Clients Say</h1>
+        <h1>¿Que opinan nuestros asegurados?</h1>
       </header>
       <Swiper
         modules={[Navigation, Autoplay]}

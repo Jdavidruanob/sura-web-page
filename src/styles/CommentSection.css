@@ -6,7 +6,7 @@
 
 .section-header h1 {
   font-size: 2.5rem;
-  color: #333;
+  color: #0033A0;
   margin-bottom: 20px;
 }
 
@@ -50,7 +50,7 @@
 }
 
 .ratings i {
-  color: #f39c12;
+  color: #0033A0;
   margin: 0 2px;
 }
 
@@ -66,7 +66,7 @@
   height: 50px;
   border-radius: 50%;
   margin-right: 10px;
-  border: 2px solid #f39c12;
+  border: 3px solid #03abc7;
 }
 
 .profile-desc span {
@@ -81,5 +81,5 @@
 
 .swiper-button-next,
 .swiper-button-prev {
-  color: #f39c12 !important;
+  color: #0033A0 !important;
 }
