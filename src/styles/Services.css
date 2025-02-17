@@ -1,0 +1,48 @@
+.services {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.services__image {
+  width: 40%;
+  height: auto;
+  margin-right: 10%;
+}
+
+.services__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 170%;
+}
+
+.services__content p {
+  margin: 5% 0;
+  margin-top: 30%;
+}
+
+.services__button {
+  padding: 3% 6%;
+  background-color: #0033A0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  align-self: flex-start;
+  cursor: pointer;
+  margin-top: 5%;
+}
+
+@media (max-width: 768px) {
+  .services {
+    flex-direction: column;
+    align-items: center;
+  }
+  .services__image {
+    margin-right: 0;
+    margin-bottom: 5%;
+    width: 80%;
+  }
+}
