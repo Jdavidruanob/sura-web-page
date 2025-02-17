@@ -123,7 +123,7 @@
 
 @keyframes show {
   from {
-    opacity: 1; scale: 60%;
+    opacity: 0.2; scale: 80%;
   }
   
   to {
