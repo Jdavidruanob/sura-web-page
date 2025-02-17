@@ -8,48 +8,33 @@
 }
 
 #plans-title {
-  font-size: 3vw;
+  font-size: clamp(2rem, 3vw, 3rem);
   margin-bottom: 1%;
 }
 
 #plans-subtitle {
-  font-size: 1.5vw;
-  margin-bottom: 3%;
+  font-size: clamp(1rem, 1.5vw, 1.5rem);
+  margin: 0 auto 3%;
+  max-width: 80%;
+  line-height: 1.4;
 }
 
 #plans-cards-container {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap; /* Permite que las tarjetas se envuelvan en varias filas */
-  gap: 1%;
+  gap: 2%;
   margin-bottom: 3%;
+  flex-wrap: wrap;
 }
 
 #plans-footer {
-  font-size: 1.2vw;
+  font-size: clamp(0.9rem, 1.2vw, 1.2rem);
 }
 
-#plans-footer a {
-  color: white;
-  text-decoration: none;
-}
-
-#plans-footer a:hover {
-  text-decoration: underline;
-}
-
-/* Media queries para hacer la sección responsive */
 @media (max-width: 768px) {
-  #plans-title {
-    font-size: 5vw;
-  }
-
-  #plans-subtitle {
-    font-size: 3vw;
-  }
-
-  #plans-footer {
-    font-size: 2vw;
+  #plans-cards-container {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
