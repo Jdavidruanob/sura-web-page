@@ -25,24 +25,44 @@
 }
 
 .services__button {
-  padding: 3% 6%;
   background-color: #0033A0;
+  font-size: 75%; /* Asegúrate de que este valor coincida con el de .button-hero */
   color: white;
+  padding: 1.2vw 1.6vw;
   border: none;
-  border-radius: 5px;
-  align-self: flex-start;
+  border-radius: 10px;
   cursor: pointer;
-  margin-top: 5%;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s, transform 0.3s;
+  display: inline-block; /* Para ayudar con el centrado */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  position: static;
+}
+
+.services__button:hover {
+  background-color: #002080;
+  transform: scale(1.05);
 }
 
 @media (max-width: 768px) {
   .services {
     flex-direction: column;
     align-items: center;
+    text-align: center; /* Centra el texto */
   }
   .services__image {
     margin-right: 0;
     margin-bottom: 5%;
     width: 80%;
+  }
+  .services__content {
+    align-items: center; /* Centra el contenido */
+  }
+  .services__content p {
+    margin-top: 5%; /* Ajusta el margen superior */
+  }
+  .services__button {
+    margin-top: 5%; /* Añade margen superior para separar del texto */
   }
 }

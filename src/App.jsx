@@ -18,10 +18,6 @@ function App() {
       <TablePriceSection/>
       <TablePlans/>
       <CommentSection/>
-
-
-      
-      
     </div>
   )
 }
