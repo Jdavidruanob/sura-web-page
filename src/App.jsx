@@ -5,8 +5,8 @@ import Services  from './components/Services'
 import BenCon from './components/BenCon'
 import CommentSection from './components/CommentSection'
 import TablePlans from './components/tablePlans'
-
-
+import PlansSection from './components/PlansSection'
+import TablePriceSection from './components/TablePriceSection'
 function App() {
   return ( 
     <div>
@@ -14,7 +14,8 @@ function App() {
       <HeroSection />
       <Services/>
       <BenCon/>
-      
+      <PlansSection/>
+      <TablePriceSection/>
       <TablePlans/>
       <CommentSection/>
 
