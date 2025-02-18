@@ -19,9 +19,9 @@ function App() {
         <Services/>
         <BenCon/>
         <PlansSection/>
-        <TablePriceSection/>
-        <TablePlans/>
-        <CommentSection/>
+        <TablePriceSection/> 
+        {/* <TablePlans/> */}
+        {/* <CommentSection/> */}
       </div>
       <WhatsAppButton />
     </>
