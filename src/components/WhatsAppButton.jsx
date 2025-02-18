@@ -1,8 +1,9 @@
-// src/components/WhatsAppButton.jsx
 import React from 'react'
 import wppImg from "../assets/wpp-icon.png"
+import '../styles/WhatsAppButton.css'
+
 const WhatsAppButton = () => {
-  const whatsappNumber = "TUNUMERO" // Reemplaza con tu número
+  const whatsappNumber = "3116426370"
   const whatsappLink = `https://wa.me/${whatsappNumber}`
 
   return (
@@ -12,12 +13,15 @@ const WhatsAppButton = () => {
       rel="noopener noreferrer" 
       className="whatsapp-button"
     >
-      <img 
-        src={wppImg} // Asegúrate de tener esta imagen en tu carpeta public
-        alt="WhatsApp"
-        width="60"
-        height="60"
-      />
+      <div className="whatsapp-container">
+        <img 
+          src={wppImg}
+          alt="WhatsApp"
+          width="30"
+          height="30"
+        />
+        <span>Contáctanos</span>
+      </div>
     </a>
   )
 }

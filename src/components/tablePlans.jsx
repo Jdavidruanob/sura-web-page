@@ -96,7 +96,7 @@ const TablePlans = () => {
       </table>
       {!showAll && <div id="table-fade"></div>}
       <button id="button" className={buttonClass} onClick={handleToggle}>
-        {showAll ? 'Mostrar menos' : 'Comparar todas las características'}
+        {showAll ? 'Mostrar menos' : 'Mostrar todo'}
       </button>
     </div>
   );
