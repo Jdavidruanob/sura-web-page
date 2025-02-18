@@ -12,12 +12,12 @@ function App() {
     <div>
       <Navbar />
       <HeroSection />
-      <Services/>
+      {/* <Services/>
       <BenCon/>
       <PlansSection/>
       <TablePriceSection/>
       <TablePlans/>
-      <CommentSection/>
+      <CommentSection/> */}
 
 
       
