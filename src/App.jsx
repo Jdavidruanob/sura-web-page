@@ -10,14 +10,7 @@ import TablePriceSection from './components/TablePriceSection'
 function App() {
   return ( 
     <div>
-      <Navbar />
-      <HeroSection />
-      <Services/>
-      <BenCon/>
-      <PlansSection/>
-      <TablePriceSection/>
-      <TablePlans/>
-      <CommentSection/>
+      
     </div>
   )
 }
