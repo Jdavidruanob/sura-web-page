@@ -12,26 +12,28 @@
   text-align: left;
   margin-right: 5%;
   margin-bottom: 3%; /* Reducido */
-  margin-left: 3%;
+  margin-left: 1.5%;
+  
 }
 
 .title-hero {
   color: #0033A0;
-  font-size: 5vw; /* Usa vw para tamaños relativos basados en el ancho de la ventana */
+  font-size: 4.5vw; /* Usa vw para tamaños relativos basados en el ancho de la ventana */
   margin-bottom: 0.1vw; /* Reducido */
   line-height: 1; /* Ajustado */
+  margin-right: 10%;
 }
 
 .subtitle-hero {
-  color: rgba(0, 0, 0, 0.72);
-  font-size: 2.2vw; /* Usa vw para tamaños relativos basados en el ancho de la ventana */
+  color: #05131e;
+  font-size: 1.5vw; /* Usa vw para tamaños relativos basados en el ancho de la ventana */
   margin-bottom: 1.5vw; /* Reducido */
-  font-weight: medium;
+  font-weight: 800px;
   line-height: 1.2; /* Ajustado */
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.button-hero {
+#button-hero {
   background-color: #0033A0;
   font-size: 75%;
   color: #fff;
@@ -46,7 +48,7 @@
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-.button-hero:hover {
+#button-hero:hover {
   background-color: #002080; /* Un azul más oscuro en hover */
   transform: scale(1.05); /* Un ligero aumento en tamaño */
 }
@@ -54,16 +56,17 @@
 .image-container {
   flex: 1;
   max-width: 100%;
-  margin-left: 5%;
-  margin-right: 3%;
-  border-radius: 40px;
-  margin-top: 2.5%
+  margin-left: 0%;
+  margin-right: 4%;
+  margin-top: 2%
+
 }
 
 
 .image-container img {
   width: 100%;
   height: auto;
+  border-radius: 3rem;
 }
 
 @media (max-width: 768px) {
@@ -76,10 +79,12 @@
   .text-container {
       margin-right: 0;
       text-align: center;
+      
   }
   
   .title-hero {
-      font-size: 8vw; /* Ajusta el tamaño del título en pantallas pequeñas */
+      font-size: 8vw;
+      margin-right: 0; /* Ajusta el tamaño del título en pantallas pequeñas */
   }
 
   .subtitle-hero {
