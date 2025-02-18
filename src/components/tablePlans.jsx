@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import '../styles/tablePlans.css';
 
 const TablePlans = () => {
   const [showAll, setShowAll] = useState(false);
+  const [buttonClass, setButtonClass] = useState('');
+  const tableRef = useRef(null);
 
   const rows = [
     ['Habitación individual', '❌', '✔️', '❌'],
@@ -64,12 +66,16 @@ const TablePlans = () => {
   ];
 
   const handleToggle = () => {
+    if (showAll) {
+      tableRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
     setShowAll(!showAll);
+    setButtonClass(!showAll ? 'movable' : '');
   };
 
   return (
-    <div className="table-container">
-      <table>
+    <div id="tables-container">
+      <table ref={tableRef} id="plans-table">
         <thead>
           <tr>
             <th>¿Qué te ofrecemos?</th>
@@ -78,7 +84,7 @@ const TablePlans = () => {
             <th>Salud Evoluciona</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody id="plans-tbody">
           {rows.slice(0, showAll ? rows.length : 9).map((row, index) => (
             <tr key={index} className={!showAll && index >= 6 ? 'hidden' : ''}>
               {row.map((cell, cellIndex) => (
@@ -88,8 +94,8 @@ const TablePlans = () => {
           ))}
         </tbody>
       </table>
-      {!showAll && <div className="table-fade"></div>}
-      <button onClick={handleToggle}>
+      {!showAll && <div id="table-fade"></div>}
+      <button id="button" className={buttonClass} onClick={handleToggle}>
         {showAll ? 'Mostrar menos' : 'Comparar todas las características'}
       </button>
     </div>
