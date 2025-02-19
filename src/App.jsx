@@ -15,13 +15,24 @@ function App() {
     <>
       <div className="main-content">
         <Navbar />
-        <HeroSection />
-        <Services/>
-        <BenCon/>
-        <PlansSection/>
-        <TablePriceSection/> 
-        {/* <TablePlans/> */}
-        {/* <CommentSection/> */}
+        <section id="home">
+          <HeroSection/>
+        </section>
+        <section id="servicios">
+          <Services/>
+        </section>
+        <section id="">
+          <BenCon/>
+        </section>
+        <section id="planes">
+          <PlansSection/>
+        </section>
+        <section id="precios">
+          <TablePriceSection/>
+        </section>
+        <section id="beneficios">
+          <TablePlans/>
+        </section>
       </div>
       <WhatsAppButton />
     </>

@@ -16,3 +16,11 @@ body {
   right: 20px;
   z-index: 10000;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 300px; /* Ajusta según la altura de tu navbar */
+}
