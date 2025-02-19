@@ -39,12 +39,17 @@
   transition: all 0.3s ease;
   font-weight: bold;
   text-align: center;
+  position: relative; /* Añadido */
+  overflow: hidden; /* Añadido */
 }
 
 .navbar-link:hover {
   color: #03aec4;
+  transform: translateY(-2px);
 }
-
+.navbar-link:active {
+  transform: translateY(0); /* Añadido - efecto click */
+}
 .navbar-logo {
   
   height: 2.4rem;
