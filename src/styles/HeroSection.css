@@ -69,6 +69,26 @@
   border-radius: 3rem;
 }
 
+.social-proof {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: -10px;
+  margin: 20px 0;
+  margin-right: 15%;
+  color: #666;
+}
+
+.proof-text {
+  margin: 0;
+  font-size: 1vw;
+  font-weight: 500;
+  margin-right: 5%;
+}
+
+
+
+
 @media (max-width: 768px) {
   .hero-section {
       flex-direction: column;
@@ -93,5 +113,19 @@
 
   .button-hero {
       margin-bottom: 20px;
+  }
+
+  .social-proof {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .proof-text {
+    font-size: 3.5vw;
+  }
+
+  .proof-separator {
+    display: none;
   }
 }
