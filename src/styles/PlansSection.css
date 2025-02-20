@@ -1,8 +1,14 @@
 #plans-section {
   width: 100%;
   height: auto;
-  background: radial-gradient(circle, #0033A0 60%, #062265 100%);
-  padding: 2% 0;
+  background: radial-gradient(
+  circle, 
+  #0033A0 40%,   /* Centro: azul claro */
+  #0059D1 60%,   /* Transición intermedia */
+  #00408B 80%,   /* Hacia las esquinas: azul oscuro */
+  #002965 100%   /* Esquinas: muy oscuro */
+);
+  padding: 2% 0 5%;
   text-align: center;
   color: white;
 }
@@ -10,13 +16,15 @@
 #plans-title {
   font-size: clamp(2rem, 3vw, 3rem);
   margin-bottom: 1%;
+  margin-top: 3%;
 }
 
 #plans-subtitle {
   font-size: clamp(1rem, 1.5vw, 1.5rem);
-  margin: 0 auto 3%;
+  margin: 0 auto 4%;
   max-width: 80%;
   line-height: 1.4;
+
 }
 
 #plans-cards-container {
@@ -29,6 +37,13 @@
 
 #plans-footer {
   font-size: clamp(0.9rem, 1.2vw, 1.2rem);
+  color: #fff;
+  
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {

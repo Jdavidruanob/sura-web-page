@@ -33,6 +33,7 @@ function App() {
         <section id="beneficios">
           <TablePlans/>
         </section>
+        <CommentSection/>
       </div>
       <WhatsAppButton />
     </>

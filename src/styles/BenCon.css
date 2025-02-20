@@ -7,9 +7,9 @@
 }
 
 #benefits-text {
-  width: 55%;
+  width: 60%;
   text-align: center;
-  padding: 11% 0 10%;
+  padding: 5% 0 5%;
   
 }
 #main-text {
@@ -35,7 +35,7 @@
   opacity: 1;
   transform: scale(1);
   /* Primera animación (expansión) de 0.5s, seguida de la animación de onda de 3s que se repite infinitamente, iniciando con delay de 0.5s */
-  animation: expandText 3s ease-out forwards, waveEffect 5s linear 0s infinite;
+  animation: expandText 2s ease-out forwards, waveEffect 5s linear 0s infinite;
 }
 
 @keyframes expandText {
