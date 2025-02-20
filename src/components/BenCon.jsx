@@ -1,48 +1,77 @@
-import React from 'react';
+// BenCon.jsx
+import React, { useEffect, useRef } from 'react';
 import '../styles/BenCon.css';
 import logo1 from '../assets/image2.png'; 
 import logo2 from '../assets/image3.png';
 import logo3 from '../assets/image4.png';
 
 const BenCon = () => {
+    const textRef = useRef(null);
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animate-text');
+                    }
+                });
+            },
+            { threshold: 0.1 }
+        );
+
+        if (textRef.current) {
+            observer.observe(textRef.current);
+        }
+
+        return () => observer.disconnect();
+    }, []);
     return (
-        <div className="benefits">
-            <div className="benefits-text">
-                <p>Olvídate de las largas esperas y los altos costos médicos. Con <span className="highlight">SURA</span>, accede a atención médica de calidad sin complicaciones.</p>
-                <p className='highlight margin-top'>Afíliate ahora y obtén</p>
+        <div id="benefits">
+            <div id="benefits-text">
+                <p id="main-text" ref={textRef}>
+                    Olvídate de las largas esperas y los altos costos médicos. Con 
+                    <span id="sura-highlight">SURA</span>, 
+                    accede a atención médica de calidad sin complicaciones.
+                </p>
             </div>
-            <div className="benefits-images">
-                <div className="image-hover-container">
-                    <div className="flip-card">
-                        <div className="flip-card-front">
-                            <img className="bencon-logo" src={logo1} alt="Logo 1" />
-                            <h2 className="bencon-title">Acompañamiento</h2>
+            <p id="highlight-text">Afíliate ahora y obtén</p>
+            
+            <div id="benefits-images">
+
+                <div id="image-hover-container">
+                    <div id="flip-card">
+                        <div id="flip-card-front">
+                            <img id="bencon-logo" src={logo1} alt="Logo 1" />
+                            <h2 id="bencon-title">Acompañamiento</h2>
                         </div>
-                        <div className="flip-card-back">
+                        <div id="flip-card-back">
                             <h2>Parte trasera 1</h2>
                             <p>Contenido adicional aquí</p>
                         </div>
                     </div>
                 </div>
-                <div className="image-hover-container">
-                    <div className="flip-card bencon-container">
-                        <div className="flip-card-front">
-                            <img className="bencon-logo" src={logo2} alt="Logo 2" />
-                            <h2 className="bencon-title">Acceso rápido</h2>
+
+                <div id="image-hover-container">
+                    <div id="flip-card">
+                        <div id="flip-card-front">
+                            <img id="bencon-logo" src={logo2} alt="Logo 2" />
+                            <h2 id="bencon-title">Disponibilidad</h2>
                         </div>
-                        <div className="flip-card-back">
+                        <div id="flip-card-back">
                             <h2>Parte trasera 2</h2>
                             <p>Contenido adicional aquí</p>
                         </div>
                     </div>
                 </div>
-                <div className="image-hover-container">
-                    <div className="flip-card bencon-container">
-                        <div className="flip-card-front">
-                            <img className="bencon-logo" src={logo3} alt="Logo 3" />
-                            <h2 className="bencon-title">Respaldo</h2>
+
+                <div id="image-hover-container">
+                    <div id="flip-card">
+                        <div id="flip-card-front">
+                            <img id="bencon-logo" src={logo3} alt="Logo 3" />
+                            <h2 id="bencon-title">Seguridad</h2>
                         </div>
-                        <div className="flip-card-back">
+                        <div id="flip-card-back">
                             <h2>Parte trasera 3</h2>
                             <p>Contenido adicional aquí</p>
                         </div>
