@@ -2,12 +2,12 @@ import React from 'react';
 import '../styles/PlanCard.css';
 
 const PlanCard = ({ title, image, paragraph, borderColor }) => {
-  // Define el número de WhatsApp en formato internacional (sin símbolo +)
-  const whatsappNumber = "573147401115"; // Ejemplo: 57 (Colombia) + número
+  // Define el número de WhatsApp
+  const whatsappNumber = "3147401115";
   // Crea el mensaje a enviar
   const message = encodeURIComponent(`Hola, estoy interesado en el plan ${title}. ¿Podrías asesorarme por favor?`);
-  // Genera el enlace de WhatsApp usando la API
-  const whatsappLink = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${message}`;
+  // Genera el enlace de WhatsApp
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text=${message}`;
 
   return (
     <a 
@@ -28,6 +28,6 @@ const PlanCard = ({ title, image, paragraph, borderColor }) => {
       </div>
     </a>
   );
-};
+}
 
 export default PlanCard;
