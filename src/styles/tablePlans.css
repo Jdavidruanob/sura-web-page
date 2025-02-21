@@ -147,8 +147,8 @@
   }
 
   #plans-table {
-    width: 105%; /* Ajusta el tamaño de la tabla*/
-    margin: 0 auto; 
+    width: 90%; /* Ajusta el tamaño de la tabla */
+    margin: 0 auto;
   }
 
   #plans-table th, #plans-table td {
