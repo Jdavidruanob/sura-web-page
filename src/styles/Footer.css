@@ -1,0 +1,60 @@
+.footer {
+  background-color: #111;
+  color: white;
+  padding: 40px 10%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 14px;
+}
+
+.left-column, .right-column {
+  max-width: 45%;
+  padding: 0 100px; /* Reducimos el padding para acercar el texto a la línea */
+}
+
+.vertical-line {
+  width: 1px;
+  background-color: white;
+  height: auto;
+  min-height: 150px;
+}
+/* Estilos generales */
+.footer {
+  background-color: #111;
+  color: white;
+  padding: 40px 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.left-column, .right-column {
+  max-width: 45%;
+  padding: 0 40px;
+}
+
+.vertical-line {
+  width: 1px;
+  background-color: white;
+  height: 100%;
+}
+
+/* Para pantallas medianas (tablets) */
+@media (max-width: 768px) {
+  .footer {
+      flex-direction: column; /* Apila los elementos en vertical */
+      text-align: center; /* Centra el texto */
+      padding: 30px 5%;
+  }
+
+  .left-column, .right-column {
+      max-width: 100%;
+      padding: 10px 20px;
+  }
+
+  .vertical-line {
+      display: none; /* Ocultamos la línea en pantallas pequeñas */
+  }
+}

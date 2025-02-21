@@ -9,6 +9,7 @@ import TablePlans from './components/tablePlans'
 import PlansSection from './components/PlansSection'
 import TablePriceSection from './components/TablePriceSection'
 import WhatsAppButton from './components/WhatsAppButton'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         </section>
         
         <CommentSection/>
+        <Footer/>
       </div>
       <WhatsAppButton />
     </>
