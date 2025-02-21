@@ -84,3 +84,10 @@
 .swiper-button-prev {
   color: #0033A0 !important;
 }
+
+
+@media (max-width: 768px) {
+  .section-header h1{
+    font-size: 1.8rem;
+  } 
+}

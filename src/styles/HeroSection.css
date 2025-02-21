@@ -105,11 +105,11 @@
   
   .title-hero {
       font-size: 8vw;
-      margin-right: 0; /* Ajusta el tamaño del título en pantallas pequeñas */
+      margin-right: 2px; /* Ajusta el tamaño del título en pantallas pequeñas */
   }
 
   .subtitle-hero {
-      font-size: 5vw; /* Ajusta el tamaño del subtítulo en pantallas pequeñas */
+      font-size: 3.8vw; /* Ajusta el tamaño del subtítulo en pantallas pequeñas */
   }
 
   .button-hero {
@@ -117,9 +117,10 @@
   }
 
   .social-proof {
-    flex-direction: column;
+    flex-direction: row;
     gap: 10px;
     text-align: center;
+    margin-right: 0;
   }
 
   .proof-text {
@@ -128,5 +129,9 @@
 
   .proof-separator {
     display: none;
+  }
+  .image-container{
+    margin-right: 0;
+    margin-left: 15px;
   }
 }

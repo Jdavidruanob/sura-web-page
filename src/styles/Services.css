@@ -79,26 +79,30 @@
 /* Responsivo */
 @media (max-width: 768px) {
   .services {
-    flex-direction: column;
-    padding: 5%;
+    flex-direction: row;
     max-width: 90%;
+    align-self: center;
+    margin-left: 15px;
+    
   }
   .services__image {
-    width: 60%;
-    margin-left: 0;
+    width: 30%;
+    margin-left: 10px;
     margin-bottom: 3%;
+    margin-right: 10px;
   }
   .services__content {
     align-items: center;
-    font-size: 4vw;
+    font-size: 2.8vw;
   }
   .services__content p {
-    text-align: center;
-    margin-top: 5%;
+    text-align: justify;
+    margin-top: 30px;
+    margin-right: 10px;
   }
   .services__button {
-    margin-top: 5%;
+    margin-top: 5px;
     font-size: 4vw;
-    padding: 2vw 3vw;
+    padding: 1vw 2vw;
   }
 }

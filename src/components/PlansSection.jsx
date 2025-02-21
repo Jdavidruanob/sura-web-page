@@ -27,9 +27,7 @@ const PlansSection = () => {
                 borderColor="#04a7cc" // Otro tono de azul para el borde superior
             />
         </div>
-        <div className="plans-footer">
-            <a href="/more-info">¿No estás seguro de cuál plan es el ideal para ti?</a>
-        </div>
+        
     </div>
   );
 }

@@ -133,6 +133,10 @@
   #plans-header {
     flex-direction: column;
   }
+  #table-title{
+    font-size: 2rem;
+    padding-bottom: 20px;
+  }
 
   #plans-header h1 {
     font-size: 36px;
@@ -159,5 +163,13 @@
   #video-container {
     max-width: 95%;
     margin: 30px auto;
+  }
+
+  #table-info{
+    font-size: 3.8vw;
+    max-width: 80%;
+    padding: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
   }
 }
