@@ -34,6 +34,7 @@ const TablePlans = () => {
     ['Medicamentos pre y posoperatorios, fracturas, luxaciones y esguinces', '✔️', '✔️', '❌'],
     ['Medicamentos por tratamientos ambulatorios para las enfermedades enunciadas en las condiciones generales', '✔️', '✔️', '❌'],
     ['Medicamentos secundarios ambulatorios a quimio, radio y hormonoterapia.', '✔️', '✔️', '❌'],
+    ['Evaluación neuro psiquiátrica o neuro psicológica', '✔️', '✔️', '❌'],
     ['Escleroterapia hasta 10 sesiones por vigencia', '✔️', '✔️', '❌'],
     ['Urgencias por enfermedad o accidente fuera del país a través de asistencia en viaje', '✔️', '✔️', '❌'],
     ['Renta por días de hospitalización o cirugía', '✔️', '✔️', '❌'],
