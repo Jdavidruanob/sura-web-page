@@ -27,12 +27,15 @@ function App() {
         <section id="planes">
           <PlansSection/>
         </section>
-        <section id="precios">
-          <TablePriceSection/>
-        </section>
+        
         <section id="beneficios">
           <TablePlans/>
         </section>
+
+        <section id="precios">
+          <TablePriceSection/>
+        </section>
+        
         <CommentSection/>
       </div>
       <WhatsAppButton />

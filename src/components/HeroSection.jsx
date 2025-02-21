@@ -5,28 +5,13 @@ import heroImage from '../assets/hero-image.png';
 
 const HeroSection = () => {
   // Función de easing
-  const easeInOutQuart = (time, from, distance, duration) => {
-    if ((time /= duration / 2) < 1)
-      return (distance / 2) * time * time * time * time + from;
-    return (-distance / 2) * ((time -= 2) * time * time * time - 2) + from;
-  };
-
-  // Función de scroll suave personalizada
-  const smoothScrollTo = (endY, duration) => {
-    const startY = window.pageYOffset;
-    const distanceY = endY - startY;
-    const startTime = new Date().getTime();
-
-    const step = () => {
-      const now = new Date().getTime();
-      const time = now - startTime;
-      const newY = easeInOutQuart(time, startY, distanceY, duration);
-      window.scrollTo(0, newY);
-      if (time < duration) {
-        window.requestAnimationFrame(step);
-      }
-    };
-    window.requestAnimationFrame(step);
+  const smoothScrollTo = (endY) => {
+    if ('scrollBehavior' in document.documentElement.style) {
+      window.scrollTo({ top: endY, behavior: 'smooth' });
+    } else {
+      // Fallback simple para navegadores sin soporte smooth scroll
+      window.scrollTo(0, endY);
+    }
   };
 
   const scrollToSection = (sectionId) => {

@@ -5,40 +5,22 @@ import image from '../assets/image1.png';
 const Services = () => {
   const servicesRef = useRef(null);
 
-  // Función de easing (igual que en HeroSection)
-  const easeInOutQuart = (time, from, distance, duration) => {
-    if ((time /= duration / 2) < 1)
-      return (distance / 2) * time * time * time * time + from;
-    return (-distance / 2) * ((time -= 2) * time * time * time - 2) + from;
+  const smoothScrollTo = (endY) => {
+    if ('scrollBehavior' in document.documentElement.style) {
+      window.scrollTo({ top: endY, behavior: 'smooth' });
+    } else {
+      window.scrollTo(0, endY);
+    }
   };
-
-  // Función de scroll suave personalizada (igual que en HeroSection)
-  const smoothScrollTo = (endY, duration) => {
-    const startY = window.pageYOffset;
-    const distanceY = endY - startY;
-    const startTime = new Date().getTime();
-
-    const step = () => {
-      const now = new Date().getTime();
-      const time = now - startTime;
-      const newY = easeInOutQuart(time, startY, distanceY, duration);
-      window.scrollTo(0, newY);
-      if (time < duration) {
-        window.requestAnimationFrame(step);
-      }
-    };
-    window.requestAnimationFrame(step);
-  };
-
-  // Función que desplaza la sección usando el scroll suave, igual que en HeroSection.
-  // Aquí se envía al section con id "planes"
+  
+  // Función que desplaza a la sección usando la función optimizada.
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      const offset = 50;
+      const offset = 50; // Ajusta el offset según tus necesidades
       const elementPosition = element.getBoundingClientRect().top;
       const offsetPosition = elementPosition + window.pageYOffset - offset;
-      smoothScrollTo(offsetPosition, 1500);
+      smoothScrollTo(offsetPosition);
     }
   };
 

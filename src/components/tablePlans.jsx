@@ -33,7 +33,7 @@ const TablePlans = () => {
 
   return (
     <div id="tables-container">
-      <h2 id="table-title">Descubre qué te ofrece cada plan</h2>
+      <h2 id="table-title">¿Que te ofrecemos?</h2>
       <table ref={tableRef} id="plans-table">
         <thead>
           <tr>
@@ -58,8 +58,17 @@ const TablePlans = () => {
         {showAll ? 'Mostrar menos' : 'Mostrar todo'}
       </button>
       <p id="table-info">
-        ¿Aún no tienes muy claro cuál plan elegir? Contáctanos y te asesoramos de forma personalizada.
+        ¿Aún no tienes muy claro cuál plan debes elegir? no te preocupes contáctanos y te asesoramos de forma personalizada.
       </p>
+      <div id="video-container">
+        <iframe
+          id="youtube-video"
+          src="https://www.youtube.com/embed/K9codgO4_jg" // Formato correcto para embed
+          title="YouTube video"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
     </div>
   );
 };
