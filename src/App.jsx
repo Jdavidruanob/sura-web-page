@@ -1,6 +1,6 @@
 // App.jsx
 import './styles/App.css'
-import Navbar from './components/Navbar'
+import NavBar from './components/NavBar'
 import HeroSection from './components/HeroSection'
 import Services from './components/Services'
 import BenCon from './components/BenCon'
@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <div className="main-content">
-        <Navbar />
+        <NavBar />
         <section id="home">
           <HeroSection/>
         </section>

@@ -5,12 +5,7 @@ const Navbar = () => {
   const whatsappNumber = "3116426370";
   const whatsappLink = `https://wa.me/${whatsappNumber}`;
 
-  // Función de easing
-  const easeInOutQuart = (time, from, distance, duration) => {
-    if ((time /= duration / 2) < 1)
-      return (distance / 2) * time * time * time * time + from;
-    return (-distance / 2) * ((time -= 2) * time * time * time - 2) + from;
-  };
+  
 
   const smoothScrollTo = (endY) => {
     if ('scrollBehavior' in document.documentElement.style) {
