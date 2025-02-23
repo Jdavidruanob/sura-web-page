@@ -12,24 +12,22 @@ const PlansSection = () => {
                 title="Plan evoluciona"
                 image={evoluciona_plan_img}
                 paragraph="Podrás encontrar en un plan económico coberturas en temas de hospitalización, cirugías, consultas con las especialidades, exámenes de laboratoria y convenios con las mas importantes clínicas del país"
-                borderColor="#4A90E2" // Color azul claro para el borde superior
+                borderColor="#e2e72b" // Color azul claro para el borde superior
             />
                 <PlanCard
                 title="Plan clasico"
                 image={evoluciona_plan_img}
                 paragraph="Este programa te permite tener un directorio medico mas amplio coberturas de emergencias fuera del país, rembolsos y cobertura ilimitada en Colombia"
-                borderColor="#50E3C2" // Otro tono de azul para el borde superior
+                borderColor="#2e6df5" // Otro tono de azul para el borde superior
             />
                 <PlanCard
                 title="Plan global"
                 image={evoluciona_plan_img}
                 paragraph="El plan global nos gozar de una cobertura mas amplianos dentro y fuera del pais, convenio con las Clínicas importantes, toda la atencion en hospitalizacion, cirigias, gastos hospitalarios."
-                borderColor="#B8E986" // Otro tono de azul para el borde superior
+                borderColor="#04a7cc" // Otro tono de azul para el borde superior
             />
         </div>
-        <p id="plans-footer">
-            <a href="/more-info">¿No estás seguro de cuál plan es el ideal para ti?</a>
-        </p>
+        
     </div>
   );
 }

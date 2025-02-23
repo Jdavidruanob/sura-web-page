@@ -3,8 +3,15 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-  padding: 20px;
+  padding: 20px 0 5%;
   background-color: #f9f9f9;
+}
+
+#table-title{
+  color: #0033A0; /* Color primario */
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 4%;
 }
 
 #plans-table {
@@ -94,10 +101,41 @@
   font-size: 20px;
   color: #333;
 }
+#table-info{
+  margin-top: 3%;
+  color: #05131e;
+  font-size: 1.5vw; /* Usa vw para tamaños relativos basados en el ancho de la ventana */
+  margin-bottom: 5vw; /* Reducido */
+  font-weight: 800px;
+  line-height: 1.2; /* Ajustado */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 60%;
+  text-align: center;
+}
+
+#video-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0px auto;
+  padding: 0 20px;
+  aspect-ratio: 16/9;
+}
+
+#youtube-video {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
 @media (max-width: 768px) {
   #plans-header {
     flex-direction: column;
+  }
+  #table-title{
+    font-size: 2rem;
+    padding-bottom: 20px;
   }
 
   #plans-header h1 {
@@ -113,12 +151,25 @@
   }
 
   #plans-table {
-    width: 105%; /* Ajusta el tamaño de la tabla*/
-    margin: 0 auto; 
+    width: 90%; /* Ajusta el tamaño de la tabla */
+    margin: 0 auto;
   }
 
   #plans-table th, #plans-table td {
     padding: 15px;
     font-size: 18px;
+  }
+
+  #video-container {
+    max-width: 95%;
+    margin: 30px auto;
+  }
+
+  #table-info{
+    font-size: 3.8vw;
+    max-width: 80%;
+    padding: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
   }
 }
