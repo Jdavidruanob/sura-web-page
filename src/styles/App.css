@@ -24,3 +24,9 @@ html {
 section {
   scroll-margin-top: 300px; /* Ajusta según la altura de tu navbar */
 }
+
+@media (max-width: 768px) {
+  body{
+    max-width: 100%;
+  }
+}
