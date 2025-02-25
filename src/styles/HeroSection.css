@@ -94,37 +94,41 @@
   .hero-section {
       flex-direction: column;
       text-align: center;
-      padding: 0% 5% ;
+      padding: 0;
+      margin: 0;
   }
 
   .text-container {
-      margin-right: 0;
+      margin: 0;
+      padding: 0;
       text-align: center;
-      padding: 0% 0% 5% 0%;
       
   }
   
   .title-hero {
       font-size: 8vw;
-      margin-right: 0;
-      
+      padding: 0;
+      margin: 0;
   }
 
   .subtitle-hero {
       font-size: 3.8vw; /* Ajusta el tamaño del subtítulo en pantallas pequeñas */
+      padding: 0;
+      margin: 0;
   }
 
   #button-hero {
-    margin-top: 20px;
     padding: 3.5vw 6vw;
-    margin-bottom: 0px;
+    
+    
   }
 
   .social-proof {
     flex-direction: row;
     gap: 10px;
     text-align: center;
-    margin-right: 0;
+    padding: 0;
+    margin: 0;
   }
 
   .proof-text {
