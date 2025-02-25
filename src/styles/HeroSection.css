@@ -106,13 +106,15 @@
   
   .title-hero {
       font-size: 10vw;
-      margin-right: 10px;
-      margin-left: 10px;
+      margin: 10px;
+      margin-top: 30px;
       
   }
 
   .subtitle-hero {
       font-size: 4.2vw; /* Ajusta el tamaño del subtítulo en pantallas pequeñas */
+      margin: 20px;
+      text-align: center;
   }
 
   #button-hero {
@@ -125,8 +127,7 @@
     flex-direction: row;
     gap: 10px;
     text-align: center;
-    margin-right: 10px;
-    margin-left: 30px;
+    margin: 30px;
   }
 
   .proof-text {
