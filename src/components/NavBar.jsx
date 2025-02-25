@@ -2,8 +2,12 @@ import React from 'react';
 import './../styles/NavBar.css';
 
 const Navbar = () => {
-  const whatsappNumber = "3116426370";
-  const whatsappLink = `https://wa.me/${whatsappNumber}`;
+  // Define el número de WhatsApp en formato internacional (sin símbolo +)
+  const whatsappNumber = "573147401115"; // Ejemplo: 57 (Colombia) + número
+  // Crea el mensaje a enviar
+  const message = encodeURIComponent(`Hola estoy interesado en la póliza de sura`);
+  // Genera el enlace de WhatsApp usando la API
+  const whatsappLink = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${message}`;
 
   
 

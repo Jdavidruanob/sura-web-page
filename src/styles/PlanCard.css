@@ -94,14 +94,14 @@
     margin-top: 5%;
   }
   #card {
-    max-width: 70%;
+    max-width: 80%;
     min-height: 500px;
     margin: 1%;
     padding: 5%; /* Aumentar padding interno */
   }
   
   #image-container {
-    height: 250px;
+    height: 300px;
     margin: 0 auto 25px;
   }
 

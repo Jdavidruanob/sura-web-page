@@ -74,23 +74,25 @@
 @media (max-width: 768px) {
   .navbar {
     height: auto;
-    padding: 15px;
     flex-direction: column;
   }
 
   .navbar-left, .navbar-right {
-    margin: 10px 0;
+    margin: 2px 0;
   }
 
   .navbar-logo {
-    height: 45px;
+    margin-top: 5px;
+    height: 7.5vw;
   }
   .navbar-button {
     display: none; /* Oculta el botón en móvil */
   }
- 
+  .navbar-link{
+    font-size: 3vw;
+  }
 
   .navbar-right {
-    gap: 15px;
+    gap: 30px;
   }
 }
