@@ -93,41 +93,41 @@
 @media (max-width: 768px) {
   .hero-section {
       flex-direction: column;
-      text-align: center;
-      padding: 0% 5% ;
+      padding: 0% 5% 10% ;
   }
 
   .text-container {
-      margin-right: 0;
       text-align: center;
-      padding: 0% 0% 5% 2%;
+      padding: 0% 0% 5% 0%;
+      margin: 0%;
       
   }
   
   .title-hero {
       font-size: 10vw;
-      margin: 10px;
-      margin-top: 30px;
+      width: 90%;
+      margin: 40px auto 20px;
+
       
   }
 
   .subtitle-hero {
       font-size: 4.2vw; /* Ajusta el tamaño del subtítulo en pantallas pequeñas */
-      margin: 20px;
-      text-align: center;
-  }
+      margin: 20px auto;
+      width: 92%;
+    }
 
   #button-hero {
-    margin-top: 20px;
-    padding: 3.5vw 6vw;
-    margin-bottom: 0px;
+    margin-top: 10px;
+    padding: 4.5vw 6vw;
+    margin-bottom: 20px;
   }
 
   .social-proof {
     flex-direction: row;
-    gap: 10px;
     text-align: center;
-    margin: 20px;
+    width: 80%;
+    margin: 30px auto;
   }
 
   .proof-text {
@@ -136,7 +136,7 @@
 
  
   .image-container{
-    max-width: 90%;
+    max-width: 95%;
     margin: 0;
   }
 }
