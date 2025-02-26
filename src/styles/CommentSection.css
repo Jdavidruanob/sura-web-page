@@ -89,5 +89,7 @@
 @media (max-width: 768px) {
   .section-header h1{
     font-size: 1.8rem;
+    margin-bottom: 30px;
   } 
+
 }

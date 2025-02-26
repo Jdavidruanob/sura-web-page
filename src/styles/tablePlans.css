@@ -130,11 +130,14 @@
 }
 
 @media (max-width: 768px) {
+  #tables-container {
+    padding-bottom: 0;
+  }
   #plans-header {
     flex-direction: column;
   }
   #table-title{
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding-bottom: 20px;
   }
 
