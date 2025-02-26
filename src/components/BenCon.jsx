@@ -57,7 +57,7 @@ const BenCon = () => {
                             <h2 id="bencon-title">Disponibilidad</h2>
                         </div>
                         <div id="flip-card-back">
-                            <p>Cuentas con una cobertura las 24/7 en todos los centros de salud Sura y Clinicas aliadas en todo el territorio Colombiano. La tranquilidad de ser atendido por una red de especialistas segun su necesidad. El acompañamiento en momentos difíciles, nos permiten estar tranquilos y poder disfrutar a tiempo del mejor servicio de Salud.</p>
+                            <p>Cuentas con cobertura 24/7 en todos los centros de salud Sura y clínicas aliadas en Colombia. Disfruta la tranquilidad de ser atendido por una red de especialistas según tu necesidad, con acompañamiento en momentos difíciles para garantizar el mejor servicio de salud.</p>
                         </div>
                     </div>
                 </div>

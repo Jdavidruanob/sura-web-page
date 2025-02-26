@@ -32,8 +32,8 @@ const HeroSection = () => {
         <p className="subtitle-hero">Descubre tu plan ideal de medicina prepagada.</p>
         
         <div className="social-proof">
-          <p className="proof-text">+20 de las mejores clínicas de Colombia</p>
-          <p className="proof-text">+420,000 familias ya eligieron a Sura</p>
+          <p className="proof-text"><strong>+20 de las mejores clínicas de Colombia</strong></p>
+          <p className="proof-text"><strong>+420,000 familias ya eligieron a Sura</strong></p>
         </div>
 
         <button 

@@ -9,12 +9,12 @@ const Footer = () => {
       <div className="left-column">
         <p><strong>Soporte Comercial:</strong></p>
         <p>Ariel Palomo</p>
-        <p>Phone: 314 7401115</p>
+        <p>Celular: 314 7401115</p>
       </div>
       <div className="vertical-line"></div>
       <div className="right-column">
-        <p>Dirección: <strong>Calle 13A #103-43, segundo piso, ciudad jardín.</strong></p>
-        <p>Email: <strong>ariel.palomo@asesorsura.com</strong></p>
+        <p>Dirección: Calle 13A #103-43, segundo piso, ciudad jardín.</p>
+        <p>Email: ariel.palomo@asesorsura.com</p>
       </div>
     </div>
   );
