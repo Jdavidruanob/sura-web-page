@@ -8,14 +8,13 @@ const Footer = () => {
       <img src={logo1} alt="Logo SURA" className="footer-logo" />
       <div className="left-column">
         <p><strong>Soporte Comercial:</strong></p>
-        <p>Ariel Palomo Chavarro</p>
-        <p>Phone: 18001024376 / +91 11 4057 8489</p>
-        <p>Email: <strong>support@heroibil.com</strong></p>
+        <p>Ariel Palomo</p>
+        <p>Phone: 314 7401115</p>
       </div>
       <div className="vertical-line"></div>
       <div className="right-column">
-        <p>Ariel Palomo Chavarro.</p>
-        <p>Ariel como esta.</p>
+        <p>Dirección: <strong>Calle 13A #103-43, segundo piso, ciudad jardín.</strong></p>
+        <p>Email: <strong>ariel.palomo@asesorsura.com</strong></p>
       </div>
     </div>
   );

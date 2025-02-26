@@ -3,34 +3,39 @@ import { Navigation, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import '../styles/CommentSection.css';
-import img1 from './../assets/review.jpg';
-import img2 from './../assets/review.jpg';
-import img3 from './../assets/review.jpg';
+import img1 from './../assets/usuario1.jpeg';
+import img2 from './../assets/usuario2.jpeg';
+import img3 from './../assets/usuario3.jpeg';
+import img4 from './../assets/usuario4.jpeg';
 
 const testimonials = [
   {
     image: img1,
-    title: 'Awesome Coding',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    title: 'Atención rápida y de calidad',
+    text: 'Estoy muy satisfecha con mi plan de salud de Sura, la cobertura es extensa y me ofrece acceso fácil y rápido a médicos, especialistas, servicios de urgencias. Las instalaciones y el personal del centro salud Sura son de calidad y resalto su amabilidad y eficiencia en la atención.',
     rating: 5,
-    name: 'Person Name',
-    description: 'Description',
+    name: 'Berselaidy Chavarro',
   },
   {
     image: img2,
-    title: 'Great Experience',
-    text: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    title: 'Protección y tranquilidad asegurada',
+    text: 'Esta poliza es lo mejor!!! estoy muy contento de tener esta poliza con Sura y contar con todos los beneficios, estar protegido es tener tranquilidad y contar con un respaldo a la hora de cualquier evento de Salud.',
     rating: 5,
-    name: 'Person Name',
-    description: 'Description',
+    name: 'Mike Gallego',
   },
   {
     image: img3,
-    title: 'Highly Recommend',
-    text: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+    title: 'Acceso a los mejores especialistas',
+    text: 'La póliza de Sura me ha ayudado mucho en tener acceso a los mejores especialistas, el servicio de mi póliza y el acompañamiento es espectacular, la coberturas son las mejores....me siento feliz con mi Póliza.',
     rating: 5,
-    name: 'Person Name',
-    description: 'Description',
+    name: 'Diana Zapata',
+  },
+  {
+    image: img4,
+    title: 'Satisfacción y confianza en SURA',
+    text: 'Sura es una póliza de seguros que tenemos hace unos años y siempre recibimos muy buen servicio de todo su equipo de trabajo. Destacamos el servicio y la ayuda que nos brinda nuestro agente de seguros Ariel , estamos tranquilos por que confiamos que SURA fue una buena elección.',
+    rating: 5,
+    name: 'Bladimir Tabares',
   },
 ];
 

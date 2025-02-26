@@ -38,7 +38,6 @@ const BenCon = () => {
             <p id="highlight-text">Afíliate ahora y obtén</p>
             
             <div id="benefits-images">
-
                 <div id="image-hover-container">
                     <div id="flip-card">
                         <div id="flip-card-front">
@@ -46,8 +45,7 @@ const BenCon = () => {
                             <h2 id="bencon-title">Acompañamiento</h2>
                         </div>
                         <div id="flip-card-back">
-                            <h2>Parte trasera 1</h2>
-                            <p>Contenido adicional aquí</p>
+                            <p>Con tu Seguro de Salud, cuentas con acompañamiento exclusivo para acceder sin demoras a consultas con especialistas y exámenes de imagenología o radiología, sin necesidad de autorización médica.</p>
                         </div>
                     </div>
                 </div>
@@ -59,8 +57,7 @@ const BenCon = () => {
                             <h2 id="bencon-title">Disponibilidad</h2>
                         </div>
                         <div id="flip-card-back">
-                            <h2>Parte trasera 2</h2>
-                            <p>Contenido adicional aquí</p>
+                            <p>Cuentas con una cobertura las 24/7 en todos los centros de salud Sura y Clinicas aliadas en todo el territorio Colombiano. La tranquilidad de ser atendido por una red de especialistas segun su necesidad. El acompañamiento en momentos difíciles, nos permiten estar tranquilos y poder disfrutar a tiempo del mejor servicio de Salud.</p>
                         </div>
                     </div>
                 </div>
@@ -72,8 +69,7 @@ const BenCon = () => {
                             <h2 id="bencon-title">Seguridad</h2>
                         </div>
                         <div id="flip-card-back">
-                            <h2>Parte trasera 3</h2>
-                            <p>Contenido adicional aquí</p>
+                            <p>Tener el respaldo de la Póliza de Sura, es estar seguro de tener las mejores coberturas en temas de hospitalización, Cirugías, gastos hospitalarios, urgencias, acceso a todas las especialidades y la cobertura integral en todo el Pais.</p>
                         </div>
                     </div>
                 </div>

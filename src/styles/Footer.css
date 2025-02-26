@@ -18,7 +18,7 @@
 
 .left-column, .right-column {
   max-width: 45%;
-  padding: 0 40px;
+  padding: 0 50px; /* Ajusta texto de la linea */
 }
 
 .footer-logo {
@@ -26,7 +26,7 @@
   height: auto;
   margin-bottom: 10px;
   position: relative;
-  left: -15%; /* Ajusta este valor según cuánto lo quieras mover */
+  left: -10%; /* Ajusta este valor según cuánto lo quieras mover */
 }
 
 @media (max-width: 768px) {
