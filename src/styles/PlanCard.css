@@ -61,7 +61,7 @@
 #paragraph-container {
   width: 100%;
   margin: 5px auto;
-  text-align: justify;
+  text-align: center;
 }
 
 #paragraph {
@@ -99,13 +99,13 @@
   }
   #card {
     max-width: 80%;
-    min-height: 500px;
+    min-height: auto;
     margin: 1%;
     padding: 5%; /* Aumentar padding interno */
   }
   
   #image-container {
-    height: 300px;
+    height: auto;
     margin: 0 auto 25px;
   }
 

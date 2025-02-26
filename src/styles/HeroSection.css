@@ -77,7 +77,7 @@
   gap: -10px;
   margin: 20px 0;
   margin-right: 15%;
-  color: #666;
+  color: #111111;
 }
 
 .proof-text {
@@ -131,7 +131,7 @@
   }
 
   .proof-text {
-    font-size: 3.5vw;
+    font-size: 3vw;
   }
 
  
