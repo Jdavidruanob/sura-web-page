@@ -2,7 +2,7 @@ import './../styles/PlansSection.css';
 import PlanCard from '../components/PlanCard';
 import evoluciona_plan_img from '../assets/evoluciona-plan-img.png';
 import global_img from '../assets/global.png'
-import clasico_img from '../assets/cla.png'
+import clasico_img from '../assets/clasico2.png'
 import evo_img from '../assets/ascesor1.png'
 const PlansSection = () => {
   return (
