@@ -2,7 +2,7 @@ import './../styles/PlansSection.css';
 import PlanCard from '../components/PlanCard';
 import evoluciona_plan_img from '../assets/evoluciona-plan-img.png';
 import global_img from '../assets/global.png'
-import clasico_img from '../assets/clasico.png'
+import clasico_img from '../assets/cla.png'
 import evo_img from '../assets/ascesor1.png'
 const PlansSection = () => {
   return (
@@ -15,6 +15,7 @@ const PlansSection = () => {
                 image={evo_img}
                 paragraph="Podrás encontrar en un plan económico coberturas en temas de hospitalización, cirugías, consultas con todas las especialidades, exámenes de laboratorio y convenios con las mas importantes clínicas del país."
                 borderColor="#e2e72b" // Color azul claro para el borde superior
+                imageSize="95%"
             />
                 <PlanCard
                 title="Plan clasico"
