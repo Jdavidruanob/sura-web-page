@@ -5,7 +5,7 @@
   padding: 4% 5% 5% 5%; /* Aumenta el padding superior */
   max-width: 85%;
   margin: 1% auto;
-  background-color: #0033A0; /* Fondo azul */
+  background: radial-gradient(circle, #005dab 0%, #0048a5 48%, #0033a0 100%); /* Fondo degradado azul y amarillo */
   border-radius: 50px;
 }
 
@@ -37,26 +37,28 @@
 }
 
 .services__image {
-  width: 25%; /* Imagen más pequeña */
-  margin-left: 10%;
+  width: 28%; /* Imagen más pequeña */
+  margin-left: 5%;
+  background-color: #f0f1d8;
+  border-radius: 30%;
 }
 
 .services__content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  font-size: 130%; /* Reducido proporcionalmente */
+  font-size: 110%; /* Reducido proporcionalmente */
   color: white; /* Texto blanco */
 }
 
 .services__content p {
-  margin: 5% 20% 5% 5%;
+  margin: 5% 20% 5% 10%;
   margin-top: 10%; /* Margen superior ajustado */
   text-align: justify;
 }
 
 .services__button {
-  background-color: #e2e72b; /* Botón amarillo */
+  background-color: #e0e352; /* Botón amarillo */
   font-size: 70%;
   color: #0033A0; /* Texto azul */
   padding: 1.2vw 1.6vw;
@@ -68,7 +70,7 @@
   transition: background-color 0.3s, transform 0.3s;
   display: inline-block;
   position: static;
-  margin-left: 5%;
+  margin-left: 10%;
 }
 
 .services__button:hover {
@@ -86,7 +88,7 @@
     
   }
   .services__image {
-    width: 60%;
+    width: 70%;
     margin: auto;
   }
   .services__content {
