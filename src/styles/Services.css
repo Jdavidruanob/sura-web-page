@@ -37,9 +37,9 @@
 }
 
 .services__image {
-  width: 28%; /* Imagen más pequeña */
+  width: 30%; /* Imagen más pequeña */
   margin-left: 5%;
-  background-color: #f0f1d8;
+  background-color: #e0e352;
   border-radius: 30%;
 }
 
