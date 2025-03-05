@@ -52,10 +52,6 @@ const Navbar = () => {
             Planes
           </button>
           
-          <button onClick={() => scrollToSection('beneficios')} className='navbar-link'>
-            Beneficios
-          </button>
-          
           <button onClick={() => scrollToSection('precios')} className='navbar-link'>
             Precios
           </button>

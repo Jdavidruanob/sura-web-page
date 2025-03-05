@@ -77,7 +77,7 @@ const TablePlans = () => {
 
   return (
     <div id="tables-container">
-      <h2 id="table-title">¿Que te ofrecemos?</h2>
+      {/* <h2 id="table-title">¿Que te ofrecemos?</h2>
       <table ref={tableRef} id="plans-table">
         <thead>
           <tr>
@@ -100,7 +100,7 @@ const TablePlans = () => {
       {!showAll && <div id="table-fade"></div>}
       <button id="button" className={buttonClass} onClick={handleToggle}>
         {showAll ? 'Mostrar menos' : 'Mostrar todo'}
-      </button>
+      </button> */}
       <p id="table-info">
         ¿Aún no tienes muy claro cuál plan debes elegir? no te preocupes contáctanos y te asesoramos de forma personalizada.
       </p>

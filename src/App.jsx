@@ -29,12 +29,13 @@ function App() {
           <PlansSection/>
         </section>
         
-        <section id="beneficios">
-          <TablePlans/>
-        </section>
 
         <section id="precios">
           <TablePriceSection/>
+        </section>
+        
+        <section id="beneficios">
+          <TablePlans/>
         </section>
         
         <CommentSection/>
