@@ -47,7 +47,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  font-size: 110%; /* Reducido proporcionalmente */
+  font-size: 1.5vw; /* Reducido proporcionalmente */
   color: white; /* Texto blanco */
 }
 
