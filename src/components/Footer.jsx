@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Footer.css';
-import logo1 from '../assets/Logo-SURA-blanco 1.svg';
+import logo1 from '../assets/Sura-logo-edit-blanco.png';
 
 const Footer = () => {
   return (

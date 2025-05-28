@@ -43,7 +43,7 @@ const Navbar = () => {
               window.location.reload();
             }}
           >
-            <img src='/seguros-sura-nav.png' alt='Logo' className='navbar-logo' />
+            <img src='/seguros-sura-logo-azul.jpg' alt='Logo' className='navbar-logo' />
           </a>
         </div>
 

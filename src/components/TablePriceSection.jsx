@@ -1,5 +1,5 @@
 import "./../styles/TablePriceSection.css";
-import suralogo from "./../assets/sura-logo.png"
+import suralogo from "./../assets/sura-consultores-logo-azul.jpg"
 const TablePriceSection = () => {
   return (
     <div id="table-container">
